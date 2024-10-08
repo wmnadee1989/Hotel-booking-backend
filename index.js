@@ -12,7 +12,7 @@ const connectionString = "mongodb+srv://nadeesha:wmn123@cluster0.wet56.mongodb.n
  
 mongoose.connect(connectionString).then(
     ()=>{
-        console.log("connected to the database.test")
+        console.log("connected to the database.test2")
     }
 ).catch(
     ()=>{
