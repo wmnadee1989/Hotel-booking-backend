@@ -2,7 +2,7 @@ import express from "express"
 import { getUsers , putUsers , postUsers , deleteUsers} from "../controllers/userControllers.js"
 const userRouter = express.Router()
 
-userRouter.get("/",getUsers)
+userRouter.get("/",getUsers) 
  
 userRouter.post("/",postUsers)
 
